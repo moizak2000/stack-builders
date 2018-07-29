@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sample.Entity\Sample.Entity.csproj" />
+    <ProjectReference Include="..\Sample.Repo\Sample.Repo.csproj" />
+  </ItemGroup>
+
+</Project>
